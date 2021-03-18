@@ -1,0 +1,4 @@
+	C							Java
+1. (-1 * n)							-n
+2. printf("...",...);					System.out.print(... + ...)
+   puts("") || printf("\n");				System.out.println(.. + ..)
