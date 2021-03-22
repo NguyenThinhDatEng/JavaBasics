@@ -10,6 +10,6 @@ public class CharType {
 }
 
 /* Way 2
-char c = (char)(sc.next().charAt(0) + 1);
-System.out.println(c);
+ char c=sc.next().charAt(0);
+ System.out.println((char)(c+1));;
 */
