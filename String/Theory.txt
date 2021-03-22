@@ -1,0 +1,63 @@
+1. charAt method
+2. indexOf method
+3. length method
+4. replace method
+5. split method
+6. startsWith and endsWith method
+7. substring method
+8. toCharArray() method
+9. toUpperCase/toLowerCase method
+
+1 charAt method
+	char c = s.charAt(i);
+2 indexOf method
+	string s1 = "abc"
+	string s2 = "edcabc"
+	int rs = s2.indexOf(s1);
+=> rs = 3;
+	rs = s2.indexOf("ac");
+=> rs = -1;
+
+3 length method
+	int length = s.length();
+4 replace method
+	string s = "abb";
+	string str = s.replace('a', 'b');
+=> str = "bbb";
+* split method
+	String s = "I am Thinh";
+	String[] words = s.split(" ");
+	for(String word:words)
+	{
+		System.out.println(word);
+	}
+=> 
+I
+am
+Thinh
+* startsWith and endsWith method
+	String s = "abc"
+	System.out.println(name.startsWith("Code")); => false
+	System.out.println(name.startsWith("abc")); => true
+	System.out.println(name.endsWith("bc")); => true
+	System.out.println(name.endsWith("z"));  => false
+* substring method
+	String name = "Thinh";
+	String s = name.substring(0,2);
+=> Th
+	s = name.substring(0,4);
+=> Thinh
+	s = name.substring(3);
+=> nh
+* toCharArray() method
+	String s = "abc";
+	// convert s string to an array of characters
+	for (char c:s.toCharArray())
+	{
+		System.outprintln(c);
+	}
+* toUpperCase/toLowerCase method
+	String s = "abc"
+	s = s.toUpperCase();
+=> s = "ABC";
+
