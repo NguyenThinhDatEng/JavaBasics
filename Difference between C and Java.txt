@@ -1,4 +1,6 @@
-	C							Java
-1. (-1 * n)							-n
-2. printf("...",...);					System.out.print(... + ...)
-   puts("") || printf("\n");				System.out.println(.. + ..)
+			C							Java
+1. 		(-1 * n)							-n
+2. 		printf("...",...);					System.out.print(... + ...)
+   		puts("") || printf("\n");				System.out.println(.. + ..)
+3. Type_Data								class
+		bool							boolean
