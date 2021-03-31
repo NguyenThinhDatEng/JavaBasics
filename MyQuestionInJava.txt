@@ -1,0 +1,3 @@
+tại sao kiểu xâu trong java String lại viết hoa chữ cái đầu trong khi những kiểu khác bắt đầu bằng chữ cái thường
+String[] args ???
+Ai giải thích cho e "Hạn chế được các truy xuất không hợp lệ tới các thuộc tính của đối tượng"  với ạ
