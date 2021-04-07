@@ -1,6 +1,11 @@
-			C							Java
-1. 		(-1 * n)							-n
-2. 		printf("...",...);					System.out.print(... + ...)
-   		puts("") || printf("\n");				System.out.println(.. + ..)
-3. Type_Data								class
-		bool							boolean
+				C						Java
+1. 		   (-1 * n)							-n
+2. 		   printf("...",...);					System.out.print(... + ...)
+   		   puts("") || printf("\n");				System.out.println(.. + ..)
+3. Type_Data	   struct						class
+		   bool							boolean
+		   							byte
+   Long		   long var = 1000;					long var = 1000L;
+   float	   float var = 1.1;					float var = 1.1f;
+4. variable_name: var, _var						var, _var, $var									
+   const_name   : ...							HANG_SO

@@ -1,0 +1,19 @@
+						java.lang.*;
+Double
+	parseDouble(String): double
+						java.text.*;
+DecimalFormat
+	DecimalFormat("#.###"): void
+	format(double): double
+						java.util.*;
+Scanner
+	nextLine()				~ delete buffer	- String strName = sc.nextLine();
+						Javax.swing.*
+JOptionPane
+	showConfirmDialog(null, string);	~ Yes No Cancel
+	showInputDialog(String): void
+	showInputDialog(null, String, "action", JOptionPane.INFORMATION_MESSAGE): void
+	showMessageDialog(null, String): void
+	showMessageDialog(null, String, "action", JOptionPane.INFORMATION_MESSAGE): void
+
+	YES_OPTION 				== Yes
